@@ -27,5 +27,5 @@ input {
 }
 
 button {
-  @apply px-4 py-2 rounded-full bg-neutral-200 text-neutral-800;
+  @apply px-4 py-2 font-light rounded-full bg-neutral-200 text-slate-50 bg-gradient-to-r from-red-700 to-amber-500;
 }
