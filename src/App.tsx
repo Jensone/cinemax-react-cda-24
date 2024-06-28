@@ -127,7 +127,7 @@ export default function App() {
               </svg>
             </button>
           </form>
-          {/* <p className="text-center text-red-500">{error ? error : ""}</p> */}
+          <p className="text-center text-red-500 opacity-0">{error ? error : ""}</p>
         </motion.div>
         {
           listMovies.length > 0 ? <Card movies={listMovies} /> : "Aucun résultat"
