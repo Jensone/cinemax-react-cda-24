@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1 {
+  @apply text-6xl text-center;
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-neutral-800 to-red-500;
+}
+
+h3 {
+  @apply font-light;
+}
+
+body {
+  @apply flex flex-col items-center justify-center min-h-screen;
+  font-family: 'Kanit', sans-serif;
+}
+
+form {
+  @apply flex justify-center w-full gap-1 p-2 my-5;
+}
+
+input {
+  @apply font-light text-center border rounded-full border-neutral-200;
+}
+
+button {
+  @apply px-4 py-2 rounded-full bg-neutral-200 text-neutral-800;
+}
