@@ -52,7 +52,7 @@ export default function Card({ movies }: Movies) {
                     <a
                         href={"https://www.imdb.com/title/" + card.imdbID}
                         target="_blank"
-                        className="block px-5 py-3 text-xs text-center text-gray-900 uppercase transition text-slate-50 bg-gradient-to-r from-red-700 to-amber-500 hover:bg-gradient-to-b hover:from-amber-500 hover:to-red-700"
+                        className="block px-5 py-3 text-xs text-center uppercase transition text-slate-50 bg-gradient-to-r from-red-700 to-amber-500 hover:bg-gradient-to-b hover:from-amber-500 hover:to-red-700"
                     >
                         Voir plus
                     </a>
